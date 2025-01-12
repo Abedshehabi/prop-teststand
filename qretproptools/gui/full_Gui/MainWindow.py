@@ -5,6 +5,7 @@ from PySide6.QtWidgets import QButtonGroup, QHBoxLayout, QMainWindow, QPushButto
 from qretproptools.gui.full_Gui.controlPanelWidget import controlPanelWidget
 from qretproptools.gui.full_Gui.DataVisWidget import DataVisWidget
 from qretproptools.gui.full_Gui.SimpleDashboardWidget import SimpleDashboardWidget
+from qretproptools.gui.full_Gui.Devices.DevicesDashboardWidget import DevicesDashboardWidget
 
 
 class MainWindow(QMainWindow):
@@ -16,7 +17,9 @@ class MainWindow(QMainWindow):
             "Data Visualization": DataVisWidget(),
             "Simple Dashboard 1": SimpleDashboardWidget("Simple Dashboard 1"),
             "Simple Dashboard 2": SimpleDashboardWidget("Simple Dashboard 2"),
+            "Device Locator": DevicesDashboardWidget("Device Locator"),
         }
+
 
         # Setting initial window size
         self.resize(1300, 700)
