@@ -4,7 +4,9 @@ dictionaryDefinitions: []
 dictionaries: []
 words:
   - absjoin
+  - DGRAM
   - DUMBASS
+  - essid
   - figsize
   - getch
   - isconnected
@@ -13,14 +15,18 @@ words:
   - libqretprop
   - micropython
   - Modbus
+  - mpremote
   - Nikhil
+  - osdebug
   - pyproject
   - pyqtgraph
   - QRET
   - qretproptools
+  - REUSEADDR
   - showlegend
   - skiprows
   - teststand
+  - webrepl
   - WLAN
   - xaxes
   - yaxes

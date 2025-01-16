@@ -14,15 +14,19 @@ dependencies = [
     "pyqtgraph",
     "PySide6",
     "PySide6-stubs",
+    "keyboard",
+    "types-keyboard",
 
     # Dev stuff
     "ruff",
     "mypy",
+    "mpremote",
 ]
 
 [project.scripts]
 # CLI TOOLS
 hello_cli = "qretproptools.cli.hello_cli.hello_cli:main"
+find_devices = "qretproptools.cli.find_devices.find_devices:main"
 
 [project.gui-scripts]
 # GUI TOOLS
