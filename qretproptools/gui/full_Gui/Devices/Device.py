@@ -4,3 +4,5 @@ class Device:
         self._IP = IP
         self._port = port
         self._sensors = sensors
+
+    
